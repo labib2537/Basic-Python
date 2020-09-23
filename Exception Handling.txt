@@ -1,0 +1,11 @@
+def voter(age):
+    if age<18:
+        raise ValueError("Invalid Voter")
+    return "You are allowed to vote"
+
+try:
+    a = int(input("Enter an age: "))
+    print(voter(a))
+
+except ValueError as e:
+    print(e)
