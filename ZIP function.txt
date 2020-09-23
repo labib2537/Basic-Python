@@ -1,0 +1,4 @@
+id = (2537,2557,2553,2555)
+name = ("Farhan", "Taz", "Nahid", "Taseen")
+
+print(list(zip(id,name)))
